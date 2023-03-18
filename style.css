@@ -1,0 +1,31 @@
+.modal {
+    position: relative;
+    padding: 10%;
+    margin: 0 auto;
+    background-color: #626262;
+  }
+  
+  .video-wrp {
+    position: relative;
+    max-width: 700px; /* Change to check responsiveness */
+    width: 100%;
+    margin: 0 auto;
+  }
+  .video-wrp .container {
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 67.5%;
+    height: 0;
+  }
+  
+  .video-wrp .container iframe {
+    box-sizing: border-box;
+    background: url(https://tinypic.host/images/2023/02/03/frame2023.png) center center no-repeat;
+    background-size: contain;
+    padding: 10.5% 9.5% 11.5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
